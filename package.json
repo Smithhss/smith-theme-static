@@ -1,0 +1,22 @@
+{
+  "name": "smith-theme-static",
+  "version": "1.0.0",
+  "description": "Static assets for hexo-theme-smith",
+  "main": "package.json",
+  "keywords": [
+    "hexo",
+    "theme",
+    "smith",
+    "hexo-theme-smith"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Smithhss/smith-theme-static.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Smithhss/smith-theme-static/issues"
+  },
+  "homepage": "https://github.com/Smithhss/smith-theme-static",
+  "author": "Smith <saressmith@outlook.com>",
+  "license": "GPL-3.0"
+}
