@@ -1,6 +1,6 @@
 {
   "name": "smith-theme-static",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Static assets for hexo-theme-smith",
   "main": "package.json",
   "keywords": [
