@@ -213,7 +213,7 @@ async function copyImage(imageURL) {
 rm.switchDarkMode = function () {
   navFn.switchDarkMode();
   rm.hideRightMenu();
-  anzhiyu.darkModeStatus();
+  smith.darkModeStatus();
 };
 
 rm.copyUrl = function (id) {
@@ -397,7 +397,7 @@ function addRightMenuClickEvent() {
   $("#menu-randomPost").on("click", function () {
     toRandomPost();
   });
-  $("#menu-commentBarrage").on("click", anzhiyu.switchCommentBarrage);
+  $("#menu-commentBarrage").on("click", smith.switchCommentBarrage);
   $("#rightmenu-mask").on("click", rm.hideRightMenu);
   $("#rightmenu-mask").contextmenu(function () {
     rm.hideRightMenu();
@@ -418,7 +418,7 @@ function addRightMenuClickEvent() {
   });
   $("#menu-copylink").on("click", rm.copyLink);
   $("#menu-downloadimg").on("click", function () {
-    anzhiyu.downloadImage(domImgSrc, "anzhiyu");
+    smith.downloadImage(domImgSrc, "smith");
   });
   $("#menu-newwindowimg").on("click", function () {
     window.open(domImgSrc);
@@ -429,11 +429,11 @@ function addRightMenuClickEvent() {
   });
   $("#menu-searchBaidu").on("click", rm.searchBaidu);
   //音乐
-  $("#menu-music-toggle").on("click", anzhiyu.musicToggle);
-  $("#menu-music-back").on("click", anzhiyu.musicSkipBack);
-  $("#menu-music-forward").on("click", anzhiyu.musicSkipForward);
+  $("#menu-music-toggle").on("click", smith.musicToggle);
+  $("#menu-music-back").on("click", smith.musicSkipBack);
+  $("#menu-music-forward").on("click", smith.musicSkipForward);
   $("#menu-music-copyMusicName").on("click", function () {
-    rm.rightmenuCopyText(anzhiyu.musicGetName());
+    rm.rightmenuCopyText(smith.musicGetName());
     btf.snackbarShow("复制歌曲名称成功", false, 3000);
   });
 }

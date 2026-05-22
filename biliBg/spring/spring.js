@@ -167,8 +167,8 @@
   let sw = canvas.width;
   let sh = canvas.height;
   let imgs = {
-    f1: "https://npm.elemecdn.com/anzhiyu-blog@2.1.7/img/banner/spring/f1.png",
-    f2: "https://npm.elemecdn.com/anzhiyu-blog@2.1.7/img/banner/spring/f2.png",
+    f1: "https://npm.elemecdn.com/smith-theme-static@1.0.1/biliBg/assets/img/banner/spring/f1.png",
+    f2: "https://npm.elemecdn.com/smith-theme-static@1.0.1/biliBg/assets/img/banner/spring/f2.png",
   };
   //图片加载
   function loading() {
